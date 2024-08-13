@@ -1,0 +1,5 @@
+Write a Python function named 'processData' that takes a list of dictionaries as input. Each dictionary contains three keys: name (a string), age (an integer), and scores (a list of integers). The function should perform the following tasks:
+
+Filter: Exclude any dictionary where the age is less than 18.
+Transform: For the remaining dictionaries, calculate the average of the scores list and add a new key-value pair average_score to each dictionary.
+Sort: Return the list of dictionaries sorted by average_score in descending order.
