@@ -1,5 +1,8 @@
-Write a Python function named 'processData' that takes a list of dictionaries as input. Each dictionary contains three keys: name (a string), age (an integer), and scores (a list of integers). The function should perform the following tasks:
+Write a Python program that asks the user for their name, age, and height. Then, the program should print a message using these variables in a complete sentence. The message should follow this format:
 
-Filter: Exclude any dictionary where the age is less than 18.
-Transform: For the remaining dictionaries, calculate the average of the scores list and add a new key-value pair average_score to each dictionary.
-Sort: Return the list of dictionaries sorted by average_score in descending order.
+"Hello, [name]! You are [age] years old and [height] cm tall."
+
+Name should be a string.
+Age should be an integer.
+Height should be a float (in centimeters).
+Ensure that the program handles the correct data types for each input.
