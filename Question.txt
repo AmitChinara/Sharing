@@ -1,4 +1,5 @@
-Write a Python program that asks the user for two numbers and a mathematical operation (addition, subtraction, multiplication, or division). The program should:
+Write a Python program that determines if a given year is a leap year. A year is a leap year if:
 
-Perform the operation on the two numbers.
-Print the result in a formatted string like "The result of [operation] between [number1] and [number2] is [result]".
+It is divisible by 4, and
+If it is divisible by 100, it should also be divisible by 400.
+The program should print "Leap Year" if the year is a leap year, otherwise print "Not a Leap Year".
