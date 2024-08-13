@@ -1,7 +1,24 @@
-Write a Python program that asks the user for their exam score (a number between 0 and 100) and prints out their grade according to the following scale:
+Write a Python program that takes three integers as input, representing the sides of a triangle. The program should:
 
-A: 90-100
-B: 80-89
-C: 70-79
-D: 60-69
-F: 0-59
+Check if the three sides form a valid triangle using the triangle inequality theorem, which states that for any three sides of a triangle, the sum of any two sides must be greater than the third side.
+
+If the sides form a valid triangle, determine the type of triangle:
+
+"Equilateral Triangle" if all three sides are equal.
+"Isosceles Triangle" if exactly two sides are equal.
+"Scalene Triangle" if all three sides are different.
+If the sides do not form a valid triangle, print "Not a Valid Triangle".
+
+Example Input/Output:
+
+Input: 5, 5, 5
+Output: "Equilateral Triangle"
+
+Input: 7, 10, 5
+Output: "Scalene Triangle"
+
+Input: 4, 4, 6
+Output: "Isosceles Triangle"
+
+Input: 1, 2, 3
+Output: "Not a Valid Triangle"
