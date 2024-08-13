@@ -1,4 +1,4 @@
-Write a Python program that asks the user for their first and last name, then swaps the first and last name and prints them. For example:
+Write a Python program that asks the user for two numbers and a mathematical operation (addition, subtraction, multiplication, or division). The program should:
 
-Input: first name = John, last name = Doe
-Output: Doe John
+Perform the operation on the two numbers.
+Print the result in a formatted string like "The result of [operation] between [number1] and [number2] is [result]".
