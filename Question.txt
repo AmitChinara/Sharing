@@ -1,5 +1,7 @@
-Write a Python program that determines if a given year is a leap year. A year is a leap year if:
+Write a Python program that asks the user for their exam score (a number between 0 and 100) and prints out their grade according to the following scale:
 
-It is divisible by 4, and
-If it is divisible by 100, it should also be divisible by 400.
-The program should print "Leap Year" if the year is a leap year, otherwise print "Not a Leap Year".
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
