@@ -1,5 +1,4 @@
-Write a Python program that takes three integers as input from the user and calculates their average. The program should:
+Write a Python program that asks the user for their first and last name, then swaps the first and last name and prints them. For example:
 
-Ask the user to input three integers.
-Calculate the average of these three integers.
-Print the average.
+Input: first name = John, last name = Doe
+Output: Doe John
